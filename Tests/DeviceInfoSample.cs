@@ -1,13 +1,10 @@
 #if UNITY_IOS
 using System.Runtime.InteropServices;
 #endif
-using TMPro;
 using UnityEngine;
 
 public class DeviceInfoSample : MonoBehaviour
 {
-    public TextMeshProUGUI text;
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,8 +13,7 @@ public class DeviceInfoSample : MonoBehaviour
                       $"Model: {DeviceInfoUtility.GetDeviceModel()}\n" +
                       $"CPU: {DeviceInfoUtility.GetCPUModel()}\n" +
                       $"RAM: {DeviceInfoUtility.GetTotalRAM()}\n" +
-                      $"Storage: {DeviceInfoUtility.GetTotalStorage()}"
-            ;
-        text.text = info;
+                      $"Storage: {DeviceInfoUtility.GetTotalStorage()}";
+        Debug.Log($"datdb - info {info}");
     }
 }
