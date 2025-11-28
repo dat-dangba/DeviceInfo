@@ -1,0 +1,8 @@
+{
+  "name": "com.datdb.deviceinfo",
+  "displayName": "Device Info",
+  "description": "Cross-platform device info (OS version, CPU, RAM, Storage...).",
+  "author": "datdb",
+  "version": "1.0.0",
+  "website": "https://github.com/dat-dangba/DeviceInfo"
+}
