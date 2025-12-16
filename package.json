@@ -4,5 +4,12 @@
   "description": "Cross-platform device info (OS version, CPU, RAM, Storage...).",
   "author": "datdb",
   "version": "1.0.0",
-  "website": "https://github.com/dat-dangba/DeviceInfo"
+  "website": "https://github.com/dat-dangba/DeviceInfo",
+  "samples": [
+    {
+      "displayName": "Device Info Sample",
+      "description": "Device Info Sample",
+      "path": "Samples~/Device Info Sample"
+    }
+  ]
 }
