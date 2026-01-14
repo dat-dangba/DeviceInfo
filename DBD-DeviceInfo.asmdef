@@ -1,6 +1,6 @@
 {
-    "name": "DeviceInfo",
-    "rootNamespace": "",
+    "name": "DBD-DeviceInfo",
+    "rootNamespace": "DBD.DeviceInfo",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

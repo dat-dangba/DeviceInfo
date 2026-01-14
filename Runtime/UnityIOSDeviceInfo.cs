@@ -2,8 +2,10 @@
 using System.Runtime.InteropServices;
 #endif
 
-public static class UnityIOSDeviceInfo
+namespace DBD.DeviceInfo
 {
+    public static class UnityIOSDeviceInfo
+    {
 #if UNITY_IOS && !UNITY_EDITOR
     [DllImport("__Internal")] private static extern string _iOSGetOSVersion();
     [DllImport("__Internal")] private static extern string _iOSGetDeviceModel();
@@ -17,4 +19,5 @@ public static class UnityIOSDeviceInfo
     public static long GetTotalRAM() => _iOSGetTotalRAM();
     public static long GetTotalStorage() => _iOSGetTotalStorage();
 #endif
+    }
 }
